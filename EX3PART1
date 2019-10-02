@@ -3,6 +3,7 @@ imshow(convert(Array{Float32,3}, elcapitan))
 
 function layers(image)
     image = imread(image)
+    println("BUG BUG BUG")
     imshow(convert(Array{Float32,3}, image))
     red = image[:,:,1]
     green = image[:,:,2]
