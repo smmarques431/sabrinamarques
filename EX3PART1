@@ -1,0 +1,2 @@
+imshow(convert(Array{Float32,3},
+imshow(convert(Array{Float32,3}, elcapitan))
